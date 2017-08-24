@@ -14,7 +14,7 @@
         <div class="post-tags">
             {% if page.tags.size > 0 %} 
             {% for tag in page.tags  %}
-            <a href="{{ site.baseurl }}tags#{{ tag }}" class="post-tag">{{ tag }}</a>
+            <a href="/tags#{{ tag }}" class="post-tag">{{ tag }}</a>
             {% endfor %}
             {% endif %}
         </div>
@@ -47,7 +47,7 @@
 <section class="author-detail">
     <section class="post-footer-item author-card">
         <div class="avatar">
-            <img src="{{ site.baseurl }}{{ site.avatar }}" alt="">
+            <img src="/{{ site.avatar }}" alt="">
         </div>
         <div class="author-name" rel="author">{{ site.author }}</div>
         <div class="bio">
