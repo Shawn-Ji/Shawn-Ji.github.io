@@ -35,29 +35,35 @@ mysql> SHOW VARIABLES LIKE 'collation_%';
 ### 修改默认字符集
 1. **永久生效的方法:**
 
-> 注意: 此方法需要删除重新创建已经建立的数据库或者表
+    > 注意: 此方法需要删除重新创建已经建立的数据库或者表
 
 
-修改my.ini文件
-添加或者修改
-```config
-[mysql]
-default-character-set=utf8
-```
+    修改my.ini文件
+    添加或者修改
+    ```config
+    [mysql]
+    default-character-set=utf8
+    ```
 
-添加或者修改
-```config
-[mysqld]
-character-set-server=latin1
-```
+    添加或者修改
+    ```config
+    [mysqld]
+    character-set-server=latin1
+    ```
 
 
 2. **如果数据表或者数据库已经建立,不想删除重建**
 
-```sql
-ALTER TABLE table_name CONVERT TO CHARACTER SET utf8;
-ALTER DATABASE database_name DEFAULT CHARACTER SET utf8;
-```
+    查看当前数据表的字符集:
+    ```sql
+    SHOW CREATE TABLE table_name;
+    接着查看CREATE TABLE字段的内容 发现以后有DEFAULT CHARSET信息
+    ```
+    再修改
+    ```sql
+    ALTER TABLE table_name CONVERT TO CHARACTER SET utf8;
+    ALTER DATABASE database_name DEFAULT CHARACTER SET utf8;
+    ```
 
 ### 补充点关于字符集的知识
 **UTF- 8**：Unicode Transformation Format-8bit，允许含BOM，但通常不含BOM。是用以解决国际上字符的一种多字节编码，它对英文使用8位（即一个字节），中文使用24位（三个字节）来编码。UTF-8包含全世界所有国家需要用到的字符，是国际编码，通用性强。
