@@ -2,6 +2,7 @@
 layout:     post
 title:      对mysql字符集设置的记录
 tags: mysql 中文乱码
+cover: 'https://ws1.sinaimg.cn/large/db141f43gy1fiw0xg4o6bj20nx08x0xc.jpg'
 ---
 # 对mysql字符集设置的记录
 ## 相关知识:
