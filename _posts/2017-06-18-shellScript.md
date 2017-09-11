@@ -1,6 +1,7 @@
 ---
 layout:     post
 title:      Shell脚本管理多台服务器进程
+cover: 'https://ws1.sinaimg.cn/large/db141f43gy1fjfyh9molij24bb1qpkjm.jpg'
 tags: Shell脚本
 ---
 # 使用shell脚本对两台Linux服务器进行服务进程管理(1台主服务器，1台从服务器)

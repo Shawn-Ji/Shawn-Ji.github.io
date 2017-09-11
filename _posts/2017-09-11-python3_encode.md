@@ -2,7 +2,7 @@
 layout: post
 title: 'Python3 中的字符编码问题'
 date: 2017-09-11
-cover: 'https://ws1.sinaimg.cn/large/db141f43gy1fjfvy480b9j20vv06w0tl.jpg'
+cover: 'https://ws1.sinaimg.cn/large/db141f43gy1fjfymvabp9j23ww1gdb2a.jpg'
 tags: Python
 ---
 

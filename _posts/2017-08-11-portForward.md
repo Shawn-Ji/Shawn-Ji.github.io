@@ -1,6 +1,7 @@
 ---
 layout:     post
 title:      端口转发配置记录
+cover: "https://ws1.sinaimg.cn/large/db141f43gy1fjfwlv4xq8j222x109qhd.jpg"
 tags: 端口转发
 ---
 

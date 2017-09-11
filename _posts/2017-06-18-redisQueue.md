@@ -1,6 +1,7 @@
 ---
 layout:     post
 title:      Redis实现分布式任务队列
+cover: 'https://ws1.sinaimg.cn/large/db141f43gy1fjfyjtgd98j234u1bd7wi.jpg'
 tags: redis
 ---
 # Redis实现分布式任务队列

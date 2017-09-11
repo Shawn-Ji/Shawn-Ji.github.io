@@ -1,8 +1,8 @@
 ---
 layout:     post
 title:      Java爬虫爬取澎湃新闻
+cover: 'https://ws1.sinaimg.cn/large/db141f43gy1fjfytndnzlj227b0u1au9.jpg'
 tags: Java
-cover:
 ---
 # Java 爬虫
 ### 介绍:
