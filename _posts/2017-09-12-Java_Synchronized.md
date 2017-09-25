@@ -74,6 +74,26 @@ public class test extends Thread{
             }
         }
     }
+    @Override
+    public void run() {
+        try {
+             test_static(); //更改这里并允许example.main()查看效果
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+class example {
+    public static void main(String[] args) {
+        test t1 = new test();
+        test t2 = new test();
+        test t3 = new test();
+        t1.start();
+        t2.start();
+        t3.start();
+    }
+
 }
 ```
 
