@@ -33,6 +33,7 @@ url = rdb.get('baidu')
 
 这时候 `url` 这个变量不是不同的str  而是Python3 中的`bytes`
 > Python2 中字符串分为 `str` 和 `unicode` 2种
+
 > Python3 种的`bytes` 相当于 Python2中的`str`  一个概念的不同叫法
 
 **以下所有的叫法以Python3为准**
